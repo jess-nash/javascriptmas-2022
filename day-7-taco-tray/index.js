@@ -14,8 +14,7 @@ function getRandomNumberOfTacos() {
 
     // return ['Empty Tray'] // replace this empty tray array
     const numberOfTacos = Math.floor(Math.random() * 10 + 1)
-    const tacoArray = new Array(numberOfTacos)
-    return tacoArray.fill('🌮', 0, numberOfTacos)
+    return new Array(numberOfTacos).fill('🌮')
 }
 
 function putTacosOnTray() {
