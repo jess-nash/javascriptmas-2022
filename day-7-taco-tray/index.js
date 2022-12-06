@@ -1,9 +1,9 @@
 // Review Challenge 4: Taco Tray
-// - Help our chef fill a tray with tacos! 
+// - Help our chef fill a tray with tacos!
 
 function getRandomNumberOfTacos() {
     /*
-    Make this function return an array that contains 
+    Make this function return an array that contains
     between one and ten taco emojis 🌮
     Use the following JavaScript concepts:
         - Math.random()
@@ -11,7 +11,7 @@ function getRandomNumberOfTacos() {
         - new Array()
         - Array.fill()
     */
-    
+
     // return ['Empty Tray'] // replace this empty tray array
     const numberOfTacos = Math.floor(Math.random() * 10 + 1)
     const tacoArray = new Array(numberOfTacos)
